@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: violet;
+}
+
+.parentdiv {
+    background-color: tomato;
+    border: 3px solid whitesmoke;
+    height: 730px;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.footer {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    font-size: 20px;
+}
+
+.top{
+    height: 100px;
+    background-color:  lightblue;
+    border-bottom: 2px solid whitesmoke;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.anim {
+    width: 350px;
+    height: 50px;
+    background-color: black;
+    border: 2px solid cornsilk;
+}
+
+.middle {
+    height: 180px;
+    background-color: yellowgreen;
+}
+
+.display {
+    width: 575px;
+    height: 180px;
+    margin: auto;
+    background-color: aliceblue;
+}
+
+.bottom {
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.digits {
+    width: 400px;
+    height: 420px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5px;
+}
+
+.digits > div {
+    background-color: white;
+    /* border: 2px solid rebeccapurple; */
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.dummy {
+    grid-column: 1/ 4;
+}
+
+.zero {
+    grid-area: 4/2/5/3;
+}
+
+.nine {
+    grid-area: 1/3/2/4;
+}
+
+.eight {
+    grid-area: 1/2/2/3;
+}
+
+.seven {
+    grid-area: 1/1/2/2;
+}
+
+.six {
+    grid-area: 2/3/3/4;
+}
+
+.five {
+    grid-area: 2/2/3/3;
+}
+
+.four {
+    grid-area: 2/1/3/2;
+}
+
+/* .three {
+    grid-area: ///;
+}
+
+.two {
+    grid-area: ///;
+} */
+
+.one {
+    grid-area: 3/1/4/2;
+}
+
+.operators {
+    width: 150px;
+    height: 420px;
+    display: grid;
+    gap: 5px;
+}
+
+.operators > div {
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
