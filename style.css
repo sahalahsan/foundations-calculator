@@ -5,12 +5,12 @@
 }
 
 body {
-    background-color: violet;
+    background-color: whitesmoke;
 }
 
 .parentdiv {
-    background-color: tomato;
-    border: 3px solid whitesmoke;
+    background-color: darkgray;
+    border: 3px solid mediumslateblue;
     height: 730px;
     width: 600px;
     margin: auto;
@@ -31,7 +31,6 @@ body {
 .top{
     height: 100px;
     background-color:  lightblue;
-    border-bottom: 2px solid whitesmoke ;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -52,7 +51,6 @@ body {
 
 .middle {
     height: 180px;
-    background-color: yellowgreen;
 }
 
 .display {
@@ -81,7 +79,7 @@ body {
 
 .digits > div {
     background-color: white;
-    /* border: 2px solid rebeccapurple; */
+    border: 2px solid mediumslateblue;
     padding: 20px;
     font-size: 30px;
     text-align: center;
@@ -141,6 +139,7 @@ body {
 .operators > div {
     font-weight: bolder;
     background-color: white;
+    border: 2px solid mediumslateblue;
     color: black;
     padding: 20px;
     font-size: 30px;
